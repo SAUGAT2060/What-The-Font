@@ -1,0 +1,55 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Lobster&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif; /* Main font for text */
+    background-color: #ffffff; /* Clean white background */
+    color: #333; /* Standard text color */
+    padding: 20px;
+    line-height: 1.6; /* Improved readability */
+}
+
+/* Header */
+header h1 {
+    font-size: 2.5rem; /* Large title font */
+    font-family: 'Lobster', cursive; /* Decorative font for title */
+    text-align: center;
+    color: #2c3e50; /* Dark color for emphasis */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* Verses */
+.verse {
+    font-weight: 400; /* Regular weight for verses */
+    color: #2980b9; /* Soft blue for a calm feel */
+    font-size: 1.2rem; /* Size for better visibility */
+    margin-bottom: 15px; /* Space between verses */
+}
+
+/* Chorus */
+.chorus {
+    font-weight: bold; /* Bold to make it stand out */
+    font-size: 1.3rem; /* Slightly larger for emphasis */
+    color: #27ae60; /* Green for a positive vibe */
+    text-align: center; /* Center-align chorus text */
+    margin: 10px 0; /* Space above and below chorus */
+}
+
+/* Bridge */
+.bridge {
+    font-weight: bold; /* Bold for impact */
+    color: #e74c3c; /* Red to signify strong emotion */
+    text-align: center; /* Center text */
+    text-transform: uppercase; /* Uppercase for urgency */
+    font-size: 1.4rem; /* Larger size for the bridge */
+    margin-top: 20px; /* Space before the bridge */
+}
+
+/* Footer */
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 50px; /* Space above footer */
+    font-size: 0.9rem; /* Smaller font for footer */
+    color: #777; /* Light gray for footer text */
+}
